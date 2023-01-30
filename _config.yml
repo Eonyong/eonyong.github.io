@@ -187,3 +187,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  - jekyll-include-cache
+  - jekyll-gist
