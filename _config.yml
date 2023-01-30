@@ -92,7 +92,11 @@ yat:
 #
 # Custom color as below:
 # theme_color: "#882250"
-
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-ZCYKHDY0FJ"
+    anonymize_ip: false
 # You can choose a brand color
 # Default brand colors as below:
 # orangered: #ff5100
