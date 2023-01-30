@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://inasie.github.io/apt-deal-info/sitemap.xml
+Sitemap: https://eonyong.github.io/sitemap.xml
