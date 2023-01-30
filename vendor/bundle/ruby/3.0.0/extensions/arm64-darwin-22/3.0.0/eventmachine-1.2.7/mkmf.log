@@ -119,7 +119,7 @@ checked program was:
 "clang -fdeclspec -o conftest -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0/arm64-darwin22 -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I. -I/Users/eonyong/.rbenv/versions/3.0.1/openssl/include -I/Users/eonyong/.rbenv/versions/3.0.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/Users/eonyong/.rbenv/versions/3.0.1/lib -L/Users/eonyong/.rbenv/versions/3.0.1/openssl/lib -L. -L/Users/eonyong/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -L/usr/local/lib  -m64   -lruby.3.0   "
 Undefined symbols for architecture arm64:
   "_rb_thread_blocking_region", referenced from:
-      _t in conftest-cb0fc5.o
+      _t in conftest-07b324.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -282,7 +282,7 @@ checked program was:
 "clang -fdeclspec -o conftest -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0/arm64-darwin22 -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I. -I/Users/eonyong/.rbenv/versions/3.0.1/openssl/include -I/Users/eonyong/.rbenv/versions/3.0.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/Users/eonyong/.rbenv/versions/3.0.1/lib -L/Users/eonyong/.rbenv/versions/3.0.1/openssl/lib -L. -L/Users/eonyong/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -L/usr/local/lib  -m64   -lruby.3.0   "
 Undefined symbols for architecture arm64:
   "_rb_enable_interrupt", referenced from:
-      _t in conftest-fb34e4.o
+      _t in conftest-45e800.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -463,7 +463,7 @@ checked program was:
 "clang -fdeclspec -o conftest -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0/arm64-darwin22 -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I. -I/Users/eonyong/.rbenv/versions/3.0.1/openssl/include -I/Users/eonyong/.rbenv/versions/3.0.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/Users/eonyong/.rbenv/versions/3.0.1/lib -L/Users/eonyong/.rbenv/versions/3.0.1/openssl/lib -L. -L/Users/eonyong/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -L/usr/local/lib  -m64   -lruby.3.0   "
 Undefined symbols for architecture arm64:
   "_pipe2", referenced from:
-      _t in conftest-a619ec.o
+      _t in conftest-b525b5.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -519,7 +519,7 @@ checked program was:
 "clang -fdeclspec -o conftest -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0/arm64-darwin22 -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0/ruby/backward -I/Users/eonyong/.rbenv/versions/3.0.1/include/ruby-3.0.0 -I. -I/Users/eonyong/.rbenv/versions/3.0.1/openssl/include -I/Users/eonyong/.rbenv/versions/3.0.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -fno-common -pipe conftest.c  -L. -L/Users/eonyong/.rbenv/versions/3.0.1/lib -L/Users/eonyong/.rbenv/versions/3.0.1/openssl/lib -L. -L/Users/eonyong/.rbenv/versions/3.0.1/lib  -fstack-protector-strong -L/usr/local/lib  -m64   -lruby.3.0   "
 Undefined symbols for architecture arm64:
   "_accept4", referenced from:
-      _t in conftest-78f300.o
+      _t in conftest-6e2b75.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
