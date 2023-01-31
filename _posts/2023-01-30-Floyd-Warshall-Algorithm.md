@@ -2,7 +2,7 @@
 layout: post
 title: 플로이드-와샬 알고리즘(Floyd-Warshall Algorithm)
 subheading: Floyd-Warshall Algorithm
-author: Pacho
+author: Pycho
 categories: algorithm
 tags: algorithm Floyd-Warshall graph DP DynamicProgramming
 sidebar: []
@@ -32,4 +32,4 @@ ShortPath(i,. J, k) = mininum(ShortPath(i, J, k - 1), ShortPath(i, k, k - 1) + S
 또한, 가중치에 음수가 없는 경우에는 플로이드-와샬 보다는 다익스트라 알고리즘이 적합하다. (why? 시간복잡도가 낮아서)
 
 해당 알고리즘을 이용한 문제는
-https://www.acmicpc.net/problem/11404
+[백준 11404번 플로이드](https://www.acmicpc.net/problem/11404)

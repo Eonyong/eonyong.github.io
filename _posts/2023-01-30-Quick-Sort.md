@@ -2,7 +2,7 @@
 layout: post
 title: 퀵소트(Quick Sort) 정리
 subheading: Quick Sort
-author: Pacho
+author: Pycho
 categories: algorithm
 tags: algorithm sort quicksort
 sidebar: []
@@ -36,5 +36,6 @@ sidebar: []
 정렬되어 있는 배열에 대해서는 최악의 시간복잡도를 가진다.
  
 ## 출처
-https://gyoogle.dev/blog/algorithm/Quick%20Sort.html
-https://ko.wikipedia.org/wiki/%ED%80%B5_%EC%A0%95%EB%A0%AC
+[Tech Interview](https://gyoogle.dev/blog/algorithm/Quick%20Sort.html)
+
+[위키백과](https://ko.wikipedia.org/wiki/%ED%80%B5_%EC%A0%95%EB%A0%AC)
