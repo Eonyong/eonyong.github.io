@@ -36,3 +36,38 @@ sidebar: []
     - 논리 연산자도 연산 순서가 있는데, 괄호를 하지 않는다면 not -> and -> or 순으로 연산을 수행한다.
   - **비교 연산자**: 두 값을 비교하는 연산자로 JavaScript에서는 `==` 와 `===`, `!==` 와 `!=`가 있는데, 차이점으로는 `===`, `!==`는 type까지 비교하고 `==`, `!=`는 type을 비교하지 않고 값만 비교한다.
 
+# 조건문
+  - "만약에 ~ 한다면 ~ 하자." 라는 구문을 생각하면 편한데, 표현으로는
+  ```javascript
+    if(조건문1) {
+      do something;
+    } else if (조건문2) {
+      do something
+    } ... {
+      ...
+    } else {
+      do something
+    }
+  ```
+  형태로 이루어져 있다.
+
+# switch/case 문
+  - 해당 문법은 비교값이 특정 조건과 같을 때, 작업을 수행하는 문법이다. 각 case에는 마지막에 `break;`를 작성해줘야한다. 구성은 아래와 같다.
+  ```javascript
+    switch(비교값) {
+      case 조건1:
+        do something;
+        break;
+      case 조건2:
+        do something;
+        break;
+      case 조건3:
+        do something;
+        break;
+      ...
+      default:
+        do something;
+    }
+  ```
+  로 구성된다.
+  마지막의 `default`의 경우에는 어떠한 case에도 부합하지 않는 경우에 실행하는 구문이다.
